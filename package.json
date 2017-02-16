@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/potato4d/emojinize.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["emoji", "gemoji"],
+  "author": "Potato4d",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/potato4d/emojinize/issues"
