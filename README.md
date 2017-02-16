@@ -14,6 +14,6 @@ $ npm install emojinize
 > const emojinize = require("emojinize");
 undefined
 
-> emojinize.encode(":+1:");
+> emojinize.decode(":+1:");
 "👍"
 ```
