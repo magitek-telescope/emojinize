@@ -1,7 +1,7 @@
 const Dictionary = require("./dictionary");
 
 class Emojinize {
-  encode(text){
+  decode(text){
     return (text || "").replace(/:([a-zA-Z0-9+-_]*?):/g, (match, part)=>{
       const target = Dictionary.find((emoji)=>{
         return emoji.aliases.indexOf(part) !== -1;
